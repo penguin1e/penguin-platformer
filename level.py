@@ -30,8 +30,8 @@ class Level:
         self.ice_block_width = self.ice_block.get_width()
         self.ice_block_height = self.ice_block.get_height()
         
-        self.dirt_block = pygame.image.load("images/dirtplatform.png").convert_alpha()
-        self.dirt_block = pygame.transform.scale(self.dirt_block, (50, 50))  # Scale to match ice block size
+        self.dirt_block = pygame.image.load("images/iceblock.png").convert_alpha()
+        self.dirt_block = pygame.transform.scale(self.dirt_block, (50, 50))
         self.dirt_block_width = self.dirt_block.get_width()
         self.dirt_block_height = self.dirt_block.get_height()
         
